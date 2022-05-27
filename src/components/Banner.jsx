@@ -9,7 +9,7 @@ function Banner() {
 					<p class="text-3xl">This is my website.</p>
 					<button className="text-white border bg-slate-800  border-indigo-600
                     hover:bg-transparent hover:text-indigo-600 rounded-md py-3 px-6 sm:w-[60%] my-4 font-bold">
-						About me
+						Download CV
 					</button>
 				</div>
 				<div>
