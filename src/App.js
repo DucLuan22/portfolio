@@ -1,13 +1,14 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Banner from './components/Banner';
+import About from './components/About';
 function App() {
 	return (
-		<div>
-			<Navbar />
+		<div className="">
 			<Router>
-				<Routes>
-					<Route />
-				</Routes>
+				<Navbar />
+				<Banner />
+				<About />
 			</Router>
 		</div>
 	);
