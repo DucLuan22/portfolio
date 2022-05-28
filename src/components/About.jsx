@@ -3,7 +3,7 @@ import Progress from './ProgressBar';
 function About() {
 	return (
 		<div className="w-full bg-gradient-to-br from-sky-900 via-sky-700 to-cyan-700">
-			<div className="max-w-[1240px] mx-auto">
+			<div className="max-w-[1240px] mx-auto pb-60">
 				<div className="text-center">
 					<h2 className="text-5xl font-bold py-6 text-white">About me</h2>
 				</div>

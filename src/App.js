@@ -2,6 +2,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import About from './components/About';
+import Project from './components/Project';
 function App() {
 	return (
 		<div className="">
@@ -9,6 +10,7 @@ function App() {
 				<Navbar />
 				<Banner />
 				<About />
+				<Project />
 			</Router>
 		</div>
 	);
