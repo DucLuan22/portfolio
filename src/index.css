@@ -7,3 +7,19 @@
 		@apply p-4;
 	}
 }
+
+.will-change-transform {
+	will-change: transform;
+}
+
+@keyframes cursor {
+	0%,
+	40% {
+		opacity: 1;
+	}
+
+	60%,
+	100% {
+		opacity: 0;
+	}
+}

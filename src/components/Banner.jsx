@@ -8,7 +8,12 @@ function Banner() {
 					<h1 className="py-3 text-5xl md:text-7xl font-bold text-white">
 						Welcome, <span className="text-pink-500 ">User.</span>
 					</h1>
-					<p class="text-3xl text-white font-semibold">My name is Luan.</p>
+					<h1 className="mb-1 font-mono text-4xl text-gray-100 md:text-6xl">
+						<span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform">
+							I'm <span className="text-pink-500 ml-4 font-semibold inline-block">Duc Luan.</span>
+						</span>
+						<span className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform" />
+					</h1>
 					<div className="relative my-8 group">
 						<div className="absolute -inset-0.5 opacity-60 rounded-lg blur bg-gradient-to-r from-fuchsia-600 via-purple-400 to-violet-700 group-hover:opacity-100 transition duration-1000 group-hover:duration-800" />
 						<button className=" relative bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600 px-9 py-3">

@@ -13,7 +13,7 @@ function Navbar() {
 		}
 	};
 	return (
-		<nav className="w-screen h-[60px] bg-slate-800 fixed drop-shadow-lg text-white bg-transparent">
+		<nav className="w-screen h-[60px] bg-zinc-900 fixed drop-shadow-lg text-white z-10">
 			<div className="px-2 flex justify-between items-center w-full h-full">
 				<div className="flex items-center">
 					<h1 className="text-3xl font-bold mr-4 sm:text-4xl">LUAN.</h1>
